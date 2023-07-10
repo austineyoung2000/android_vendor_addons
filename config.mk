@@ -11,6 +11,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+
 LOCAL_PATH := $(call my-dir)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
@@ -344,6 +345,74 @@ PRODUCT_PACKAGES += \
 	FaintUIWiFiOverlay \
 	ForlornWiFiOverlay \
 	PlumpyWiFiOverlay
+
+# Brightness bar styles
+PRODUCT_PACKAGES += \
+    BBBlockyThumbOverlay \
+    BBCommetThumbOverlay \
+    BBDoubleLayerOverlay \
+    BBFluidNeutralOverlay \
+    BBFluidOutlineOverlay \
+    BBFluidOverlay \
+    BBGradientThumbOverlay \
+    BBInlineOverlay \
+    BBLeafyOutlineOverlay \
+    BBLightyOverlay \
+    BBMinimalThumbOverlay \
+    BBNeumorphOutlineOverlay \
+    BBNeumorphOverlay \
+    BBNeumorphThumbOverlay \
+    BBOldSchoolThumbOverlay \
+    BBOutlineOverlay \
+    BBPurfectOverlay \
+    BBRoundedBarOverlay \
+    BBRoundedClipOverlay \
+    BBShadedLayerOverlay \
+    BBThinOutlineOverlay
+
+# Notification styles
+PRODUCT_PACKAGES += \
+    NFBottomOutlineOverlay \
+    NFCyberponkOverlay \
+    NFCyberponkV2Overlay \
+    NFDumbbellOverlay \
+    NFDuolineOverlay \
+    NFFadedOverlay \
+    NFFluidNeutralOverlay \
+    NFFluidOverlay \
+    NFiOSOverlay \
+    NFLayersOverlay \
+    NFLeafyOutlineOverlay \
+    NFLightyOverlay \
+    NFNeumorphOutlineOverlay \
+    NFNeumorphOverlay \
+    NFOutlineOverlay \
+    NFPitchBlackOverlay \
+    NFSideStackOverlay \
+    NFStackOverlay \
+    NFThinOutlineOverlay \
+    NFThreadLineOverlay
+
+# QS panel styles
+PRODUCT_PACKAGES += \
+    QSBookmarkOverlay \
+    QSBottomOutlineOverlay \
+    QSCyberponkOverlay \
+    QSCyberponkV2Overlay \
+    QSDividedOverlay \
+    QSDoubleLayerOverlay \
+    QSFluidNeutralOverlay \
+    QSFluidOutlineOverlay \
+    QSFluidOverlay \
+    QSLeafyOutlineOverlay \
+    QSLightyOverlay \
+    QSNeumorphOutlineOverlay \
+    QSNeumorphOverlay \
+    QSOutlineOverlay \
+    QSPurfectOverlay \
+    QSShadedLayerOverlay \
+    QSSurroundOverlay \
+    QSThinOutlineOverlay
 
 # Themes
 PRODUCT_PACKAGES += \
