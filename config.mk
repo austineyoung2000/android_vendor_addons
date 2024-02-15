@@ -369,6 +369,20 @@ PRODUCT_PACKAGES += \
     VolumeShadedLayer \
     VolumeAOSPRevamped
 
+# Switch Styles
+PRODUCT_PACKAGES += \
+    Aosp \
+    Checkmark \
+    Emoji \
+    Foggy \
+    IOS \
+    Material \
+    Neumorph \
+    Outline \
+    Realme \
+    Shaded \
+    Tiny
+
 # Include {Lato,Rubik} fonts
 $(call inherit-product-if-exists, external/google-fonts/lato/fonts.mk)
 $(call inherit-product-if-exists, external/google-fonts/rubik/fonts.mk)
